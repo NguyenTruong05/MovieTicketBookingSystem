@@ -44,11 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models.cs" />
+    <Compile Include="Constants\MessageTypes.cs" />
+    <Compile Include="Enums\UserRole.cs" />
+    <Compile Include="Models\BookingCode.cs" />
+    <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Seat.cs" />
+    <Compile Include="Models\Showtime.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

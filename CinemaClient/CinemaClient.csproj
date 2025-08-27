@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\NetworkService.cs" />
+    <Compile Include="UI\AuthUI.cs" />
+    <Compile Include="UI\BookingUI.cs" />
+    <Compile Include="UI\LoginUI.cs" />
+    <Compile Include="UI\MainMenuUI.cs" />
+    <Compile Include="UI\MovieUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
