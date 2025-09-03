@@ -49,4 +49,10 @@ namespace CinemaClient.Services
             _currentUser = username;
         }
 
-        
+        public void Disconnect()
+        {
+            _stream?.Close();
+            _tcpClient?.Close();
+        }
+    }
+}
