@@ -2,6 +2,7 @@
 {
     public static class MessageTypes
     {
+
         public const string LoginRequest = "LOGIN_REQ";
         public const string LoginResponse = "LOGIN_RES";
         public const string RegisterRequest = "REGISTER_REQ";
@@ -20,5 +21,6 @@
         public const string ResetPasswordResponse = "RESET_PASSWORD_RES";
         public const string GetBookingCodeRequest = "GET_BOOKING_CODE_REQ";
         public const string GetBookingCodeResponse = "GET_BOOKING_CODE_RES";
+
     }
 }
