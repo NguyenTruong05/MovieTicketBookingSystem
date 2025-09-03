@@ -13,4 +13,5 @@ namespace CinemaShared.Models
         public string SecurityQuestion { get; set; } = string.Empty;
         public string SecurityAnswer { get; set; } = string.Empty;
     }
+
 }
