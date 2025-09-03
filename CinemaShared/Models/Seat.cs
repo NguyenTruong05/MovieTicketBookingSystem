@@ -7,5 +7,4 @@
         public bool IsBooked { get; set; }
         public string BookedByUsername { get; set; } = string.Empty;
     }
-
 }
